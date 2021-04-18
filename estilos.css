@@ -22,6 +22,18 @@
 .nav menu {
   list-style-type: none;
   display: block;
+  a:link {
+    color: red;
+  }
+  a:visited {
+    color: green;
+  }
+  a:hover {
+    color: hotpink;
+  }
+  a:active {
+    color: blue;
+  }
 }
 .nav li {
   display: inline-block;
@@ -32,6 +44,17 @@
   color: white;
   text-align: justify;
   padding: 4px;
+}
+a:link {
+  background-color: transparent;
+}
+
+a:visited {
+  background-color: transparent;
+}
+
+a:hover {
+  background-color: rgb(109, 108, 107);
 }
 
 .logo {
